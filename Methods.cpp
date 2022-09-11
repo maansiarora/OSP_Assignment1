@@ -72,5 +72,10 @@ bool Task1filter(std::string argv1, std::string argv2) {
     return true;
 }
 
+//this method is to compare the parameters- string 1 and string 2 on the basis of the third letter of the word
+//this comparator is used in task 2 onwards when we are sorting the files on the basis of the third letter
+bool comparator(std::string str1, std::string str2) {
+    return (str1[2] < str2[2]);
+}
 
 
