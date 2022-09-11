@@ -194,47 +194,47 @@ void reduce2(){
     while (!sorted3.eof() || !sorted4.eof() || !sorted5.eof() || !sorted6.eof() || !sorted7.eof() ||
            !sorted8.eof() || !sorted9.eof() || !sorted10.eof()|| !sorted11.eof()|| !sorted12.eof()||
            !sorted13.eof()|| !sorted14.eof()||!sorted15.eof()) {
-        //assigning the file that has reached eof the EOF_STRING counter
-        //the EOF_STRING is the last word possible "zzzzzzzzzzzzzzz" as there cannot be anything after this
+        //assigning the file that has reached eof the STRING1 counter
+        //the STRING1 is the last word possible "zzzzzzzzzzzzzzz" as there cannot be anything after this
         //in any of our files because of the filtering process we did earlier.
-        if (sorted3.eof() && word3 != EOF_STRING) {
-            word3 = EOF_STRING;
+        if (sorted3.eof() && word3 != STRING1) {
+            word3 = STRING1;
         }
-        if (sorted4.eof() && word4 != EOF_STRING) {
-            word4 = EOF_STRING;
+        if (sorted4.eof() && word4 != STRING1) {
+            word4 = STRING1;
         }
-        if (sorted5.eof() && word5 != EOF_STRING) {
-            word5 = EOF_STRING;
+        if (sorted5.eof() && word5 != STRING1) {
+            word5 = STRING1;
         }
-        if (sorted6.eof() && word6 != EOF_STRING) {
-            word6 = EOF_STRING;
+        if (sorted6.eof() && word6 != STRING1) {
+            word6 = STRING1;
         }
-        if (sorted7.eof() && word7 != EOF_STRING) {
-            word7 = EOF_STRING;
+        if (sorted7.eof() && word7 != STRING1) {
+            word7 = STRING1;
         }
-        if (sorted8.eof() && word8 != EOF_STRING) {
-            word8 = EOF_STRING;
+        if (sorted8.eof() && word8 != STRING1) {
+            word8 = STRING1;
         }
-        if (sorted9.eof() && word9 != EOF_STRING) {
-            word9 = EOF_STRING;
+        if (sorted9.eof() && word9 != STRING1) {
+            word9 = STRING1;
         }
-        if (sorted10.eof() && word10 != EOF_STRING) {
-            word10 = EOF_STRING;
+        if (sorted10.eof() && word10 != STRING1) {
+            word10 = STRING1;
         }
-        if (sorted11.eof() && word11 != EOF_STRING) {
-            word11 = EOF_STRING;
+        if (sorted11.eof() && word11 != STRING1) {
+            word11 = STRING1;
         }
-        if (sorted12.eof() && word12 != EOF_STRING) {
-            word12 = EOF_STRING;
+        if (sorted12.eof() && word12 != STRING1) {
+            word12 = STRING1;
         }
-        if (sorted13.eof() && word13 != EOF_STRING) {
-            word13 = EOF_STRING;
+        if (sorted13.eof() && word13 != STRING1) {
+            word13 = STRING1;
         }
-        if (sorted14.eof() && word14 != EOF_STRING) {
-            word14 = EOF_STRING;
+        if (sorted14.eof() && word14 != STRING1) {
+            word14 = STRING1;
         }
-        if (sorted15.eof() && word15 != EOF_STRING) {
-            word15 = EOF_STRING;
+        if (sorted15.eof() && word15 != STRING1) {
+            word15 = STRING1;
         }
 
         //minimum word from the 13 files that we have
