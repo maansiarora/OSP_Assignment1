@@ -4,7 +4,7 @@
 # let's first remove all the punctuations and symbols
 # from the input text file. we then store the that into a new 
 # file named "no_punct.txt"
-tr -d '[:punct:]' <wlist_all/wlist_match12.txt> no_punct.txt
+tr -d '[:punct:]' <wlist_all/wlist_match10.txt> no_punct.txt
 
 # we then remove all the duplicate of the words from the file
 # and store it in "no_duplicates.txt"
@@ -27,8 +27,8 @@ sed '/^$/d' no_numerical.txt > no_empty_lines.txt
 grep ".\{3,\}" no_empty_lines.txt > no_lower_len.txt
 grep -v '.\{15\}' no_lower_len.txt > no_upper_len.txt
 
-# we then shuffle the order of the words and store it into
-# our final file "shuffled_words.txt"
+# we then shuffle the order of the words as told in the spec and 
+# store it into our final file "shuffled_words.txt"
 shuf  no_upper_len.txt > shuffled_words.txt
 
 # displaying the top 10 words on the terminal to check if
