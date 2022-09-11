@@ -36,7 +36,7 @@ void map2(){
     std::ifstream input_file("Cleanfile.txt");
     
     // writing different length of words into different vectors created above
-    while (getline(input_file,line)) {
+    while (getline(input_file, line)) {
         switch (line.size()){
             case 3:
                 length3.push_back(line);
@@ -105,7 +105,7 @@ void map2(){
         wait(nullptr);  
     }
 
-    else{
+    else {
 
         //child processes
         std::sort(length9.begin(),length9.end(), comparator);
@@ -149,7 +149,7 @@ void write_file(std::string file1, std::vector<std::string> vec) {
 
 //reduce2() function is used to merge the 13 files created above into into one single file on the 
 //basis of their third character of each word using 13 -> 1 merge sort
-void reduce2(){
+void reduce2() {
     std::ifstream sorted3, sorted4, sorted5, sorted6, sorted7, sorted8, sorted9,
                   sorted10, sorted11, sorted12, sorted13, sorted14, sorted15;
      
